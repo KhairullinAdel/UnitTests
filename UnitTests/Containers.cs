@@ -79,6 +79,10 @@ namespace UnitTests
         {
             return Delete(Length - 1);
         }
+        public int[] GetArray()
+        {
+            return arr;
+        }
     }
 
     public class MyQueue
@@ -138,6 +142,10 @@ namespace UnitTests
         public void Print()
         {
             arr.Print();
+        }
+        public int[] GetArray()
+        {
+            return arr.GetArray();
         }
     }
 
