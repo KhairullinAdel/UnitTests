@@ -90,6 +90,11 @@ namespace UnitTests
             arr = new DynArray();
         }
 
+        public DynArray GetArray()
+        {
+            return arr;
+        }
+
         public bool IsEmpty()
         {
             return arr.GetLength() == 0;
