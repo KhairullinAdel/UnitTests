@@ -79,6 +79,11 @@ namespace UnitTests
         {
             return Delete(Length - 1);
         }
+
+        public int[] GetArray()
+        {
+            return arr;
+        }
     }
 
     public class MyQueue
